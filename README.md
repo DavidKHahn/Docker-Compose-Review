@@ -14,6 +14,7 @@ Useful Links:
 - Dockerfile commands: https://docs.docker.com/engine/reference/builder/#usage
 - https://stackoverflow.com/questions/34809646/what-is-the-purpose-of-volume-in-dockerfile (Docker Volumes)
 - https://www.linux.com/learn/docker-volumes-and-networks-compose (More on Docker Volumes)
+- https://hub.docker.com/_/postgres/ (Docker Postgres Setup Guidelines)
 
 **Docker Commands**
 

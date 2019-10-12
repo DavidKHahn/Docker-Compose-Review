@@ -30,6 +30,7 @@ services:
       POSTGRES_PASSWORD: secret
       POSTGRES_DB: smart-brain-docker
       POSTGRES_HOST: postgres
-    image: postgres
+  # builds Dockerfile inside of 'postgres' folder
+    build: ./postgres
     ports:
       - "5432:5432"
