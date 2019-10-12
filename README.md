@@ -34,3 +34,5 @@ Useful Links:
  - ``docker-compose up`` to bring back up a Docker container prev. built
  - ``docker-compose up -d`` to bring back up container in the background
  - ``docker-compose exec NAME_OF_CONTAINER bash`` access to container bash
+ - ``docker-compose down -v`` removes volumes
+ - ``docker-compose rm -v NAME_OF_VOLUME`` removes specific volume

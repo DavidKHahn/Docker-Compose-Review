@@ -12,10 +12,7 @@ services:
     working_dir: /usr/src/smart-brain-api
     # proper directory (package.json)
     environment:
-      POSTGRES_USER: victor
-      POSTGRES_PASSWORD: secret
-      POSTGRES_DB: smart-brain-docker
-      POSTGRES_HOST: postgres
+      POSTGRES_URI: postgres://victor:secret@postgres:5432/smart-brain-docker
     # links API to postgres DB (new Docker update does not require 'link')
     # links:
     #   - postgres
