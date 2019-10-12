@@ -1,4 +1,4 @@
-### Docker:
+### Docker Compose Setup and Review:
 
 **Docker bundles your application into an image which is a standalone executable package.  Docker executes the image inside a container and the environment inside the container is completely isolated from the host machine.**
 
